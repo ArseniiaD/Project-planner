@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+   <form action="" id="new-task">
+              <h2>+Add a new task</h2>
+              <input name="title" class="new-task-input medium border-rad" id="inputName" type="text" placeholder="Name">
+              <input name="description" class="new-task-input large" id="inputDesc" type="text" placeholder="Description">
+              <input name="due_date" class="new-task-input medium" id="inputDate" type="date" placeholder="Due date">
+              <input type="submit" class="new-task-submit">
+   </form>
+   <div class="container">
+      <h1>PROJECT TASKS</h1>
+      <select name="" id="sorting">
+           <option value="sort">Sort By</option>
+           <option value="urgent">Sort By Most Urgent</option>
+           <option value="name">Sort By Name</option>
+      </select>
+
+      <select name="" id="filtering">
+        <option value="all">Status</option>
+        <option value="todo">to do</option>
+        <option value="doing">doing</option>
+        <option value="done">done</option>
+      </select>
+
+      <div class="tasks-container" id="task-container">
+                <!--<div class="task">
+                    <div class="task-header">
+                        <div class="status">Due in 5 days</div>
+                    </div>
+                    <h3>Code a project manager</h3>
+                    <hr>
+                    <p>You need to code a project manager using html css and javascripto</p>
+                    <select name="status" id="">
+                        <option value="todo">to do</option>
+                        <option value="doing">doing</option>
+                        <option value="done">done</option>
+                    </select>
+                </div>-->
+       </div>    
+        
+    </div>
+    <script defer src="script.js"></script>
+</body>
+</html>
